@@ -35,8 +35,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("8690012600:AAHMznNth0GhK8GBdDY8PQqyJ0O4odQNMh4")
-ADMIN_USER_ID = int(os.getenv("7876578485", "0"))
+BOT_TOKEN = ("8690012600:AAHMznNth0GhK8GBdDY8PQqyJ0O4odQNMh4")
+ADMIN_USER_ID = ("7876578485")
 
 if not BOT_TOKEN:
     logger.error("BOT_TOKEN not set in .env")
